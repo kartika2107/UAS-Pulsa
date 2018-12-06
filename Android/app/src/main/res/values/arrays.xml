@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pulsa">
+        <item>Axis 5.000</item>
+        <item>Axis 15.000</item>
+        <item>Axis 25.000</item>
+        <item>Axis 50.000</item>
+    </string-array>
+
+    <string-array name="paket_data">
+        <item>Axis Data Bronet 1GB 30hr 20.000</item>
+        <item>Axis Data Bronet 2GB 30hr 30.000</item>
+        <item>Axis Data Bronet 5GB 30hr 60.000</item>
+        <item>Axis Data Bronet 8GB 30hr 80.000</item>
+    </string-array>
+
+    <string-array name="token">
+        <item>Token 20.000</item>
+        <item>Token 50.000</item>
+        <item>Token 100.000</item>
+        <item>Token 200.000</item>
+    </string-array>
+</resources>

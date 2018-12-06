@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pulsa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sepulsa</string>
+    <string name="nav_header_subtitle">sepulsa@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="isi_tentangkami"><b>Sepulsa</b> adalah platfrom pulsa, paket data dan token. Kami memberikan perhatian khusus kepada kemudahan dan kenyamanan dalam bertransaksi bagi para Customer kami dengan terus mengembangkan teknologi platfrom kami.
+        \n\nTim kami akan selalu memberikan pelayanan yang terbaik dengan profesional untuk memberi kepuasan bagi Customer.
+        \nKami membantu Customer untuk mengisi pulsa ponsel, paket data di semua provider, dan token</string>
+
+
+    <string name="pulsa">Pulsa</string>
+    <string name="paket_data">Paket Data</string>
+    <string name="token">Token PLN</string>
+</resources>

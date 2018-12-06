@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_top"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.eka.pulsa.slider.SliderView
+                    android:id="@+id/sliderView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"/>
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_indicator" />
+
+            <LinearLayout
+                android:id="@+id/pagesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/bg_home">
+
+            <TextView
+                android:id="@+id/tv_pulsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/pulsa"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_pulsa"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_pulsa"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="17dp"
+                android:hint="No Handphone"
+                android:inputType="phone"
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/spinner_pulsa"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/et_pulsa"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:entries="@array/pulsa"/>
+
+            <Button
+                android:id="@+id/btn_spinner_pulsa"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/spinner_pulsa"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorProduk"
+                android:text="Beli"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/bg_home">
+
+            <TextView
+                android:id="@+id/tv_paket_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/paket_data"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_paket_data"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_paket_data"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="17dp"
+                android:hint="No Handphone"
+                android:inputType="phone"
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/spinner_paket_data"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/et_paket_data"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:entries="@array/paket_data"/>
+
+            <Button
+                android:id="@+id/btn_spinner_paket_data"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/spinner_paket_data"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorProduk"
+                android:text="Beli"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_home">
+
+            <TextView
+                android:id="@+id/tv_token"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/token"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/et_token"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_token"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="17dp"
+                android:hint="No Meter"
+                android:inputType="phone"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/et_token2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/et_token"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="5dp"
+                android:hint="No Handphone"
+                android:inputType="phone"
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/spinner_token"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/et_token2"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:entries="@array/token"></Spinner>
+
+            <Button
+                android:id="@+id/btn_spinner_token"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/spinner_token"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorProduk"
+                android:text="Beli"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

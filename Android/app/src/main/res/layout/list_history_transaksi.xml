@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_no_transaksi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="8dp"
+            tools:text="#201811001" />
+
+        <TextView
+            android:id="@+id/tv_kode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/tv_no_transaksi"
+            app:layout_constraintStart_toStartOf="@+id/tv_no_transaksi"
+            app:layout_constraintTop_toBottomOf="@+id/tv_no_transaksi"
+            tools:text="A5" />
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="0dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="1 Des 2018, 12:00"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_kode"
+            app:layout_constraintTop_toBottomOf="@+id/tv_kode"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_sukses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorProduk"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tv_harga_transaksi"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_tanggal"
+            app:layout_constraintTop_toBottomOf="@+id/tv_harga_transaksi"
+            tools:text="Sukses" />
+
+        <TextView
+            android:id="@+id/tv_harga_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tv_no_transaksi"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="7.000" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
